@@ -35,7 +35,6 @@ pub fn parse_command(input: &str) -> Result<(Operation, f64, f64), CalcError> {
         "mod" => Ok(Operation::Mod),
         "log" => Ok(Operation::Log),
         _ => Err(CalcError::UnknownOperation),
-        // _ => Err(CalcError::UnknownOperation),
     }?;
     // .to_lowercase().as_str() ensures case-insensitive commands.
 
