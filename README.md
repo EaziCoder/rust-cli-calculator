@@ -13,8 +13,8 @@ A command-line calculator built in Rust as part of my Rust learning journey.
 
 ## How to Run
 ### **1️⃣ Clone the project**
-- git clone https://github.com/<your-username>/<repo-name>.git
-- cd <repo-name>
+- git clone https://github.com/your-username/repo-name.git
+- cd repo-name
 ### **2️⃣ Run the project**
 cargo run
 ### You should see:
